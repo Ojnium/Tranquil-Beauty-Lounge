@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const whatsappMessage = `Hello Tranquil Beauty Lounge!%0A%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Email:* ${email || 'Not provided'}%0A*Service Interested In:* ${service || 'Not specified'}%0A*Message:* ${message}`;
             
             // Open WhatsApp with the message
-            window.open(`https://wa.me/234XXXXXXXXX?text=${whatsappMessage}`, '_blank');
+            window.open(`https://wa.me/2347010692088?text=${whatsappMessage}`, '_blank');
             
             // Show success message
             const successMessage = document.createElement('div');
