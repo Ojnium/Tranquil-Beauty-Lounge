@@ -56,15 +56,133 @@ document.addEventListener('DOMContentLoaded', function() {
     // GALLERY DATA
     // ============================================
     const galleryData = [
-        { id: 1, title: 'Elegant Braids', category: 'hair', image: 'https://placehold.co/600x600/A8B5A0/FFFFFF?text=Braids' },
-        { id: 2, title: 'Luxury Wig', category: 'hair', image: 'https://placehold.co/600x600/A8B5A0/FFFFFF?text=Wig' },
-        { id: 3, title: 'Bridal Hair', category: 'bridal', image: 'https://placehold.co/600x600/A8B5A0/FFFFFF?text=Bridal+Hair' },
-        { id: 4, title: 'Bridal Makeup', category: 'bridal', image: 'https://placehold.co/600x600/A8B5A0/FFFFFF?text=Bridal+Makeup' },
-        { id: 5, title: 'Glowing Makeup', category: 'makeup', image: 'https://placehold.co/600x600/A8B5A0/FFFFFF?text=Makeup' },
-        { id: 6, title: 'Elegant Nails', category: 'nails', image: 'https://placehold.co/600x600/A8B5A0/FFFFFF?text=Nails' },
-        { id: 7, title: 'Weave Installation', category: 'hair', image: 'https://placehold.co/600x600/A8B5A0/FFFFFF?text=Weave' },
-        { id: 8, title: 'Natural Hair', category: 'hair', image: 'https://placehold.co/600x600/A8B5A0/FFFFFF?text=Natural+Hair' },
-    ];
+    {
+        id: 1,
+        title: 'Bridal Hair Style 1',
+        category: 'bridal',
+        image: 'Bridal hair1.jpeg'
+    },
+    {
+        id: 2,
+        title: 'Bridal Hair Style 2',
+        category: 'bridal',
+        image: 'Bridal hair2.jpeg'
+    },
+    {
+        id: 3,
+        title: 'Bridal Makeup Look 1',
+        category: 'bridal',
+        image: 'Bridal makeup1.jpeg'
+    },
+    {
+        id: 4,
+        title: 'Bridal Makeup Look 2',
+        category: 'bridal',
+        image: 'Bridal makeup2.jpeg'
+    },
+    {
+        id: 5,
+        title: 'Deep Curly Deep Wave Human Hair',
+        category: 'hair',
+        image: 'Deep Curly Deep Wave human hair.jpeg'
+    },
+    {
+        id: 6,
+        title: 'Fulani Braids with Boho Curls',
+        category: 'hair',
+        image: 'Fulani braids with boho curls.jpeg'
+    },
+    {
+        id: 7,
+        title: 'Ghana Weaving with Low Braided Bun',
+        category: 'hair',
+        image: 'Ghana weaving with a low braided bun.jpeg'
+    },
+    {
+        id: 8,
+        title: 'Nail Design 1',
+        category: 'nails',
+        image: 'Nails1.jpeg'
+    },
+    {
+        id: 9,
+        title: 'Nail Design 2',
+        category: 'nails',
+        image: 'Nails2.jpeg'
+    },
+    {
+        id: 10,
+        title: 'Nail Design 3',
+        category: 'nails',
+        image: 'Nails3.jpeg'
+    },
+    {
+        id: 11,
+        title: 'Natural Hair Style 1',
+        category: 'hair',
+        image: 'Natural hair1.jpeg'
+    },
+    {
+        id: 12,
+        title: 'Natural Hair Style 2',
+        category: 'hair',
+        image: 'Natural hair2.jpeg'
+    },
+    {
+        id: 13,
+        title: 'Raw Human Hair Body Wave',
+        category: 'hair',
+        image: 'Raw human hair natural body wave.jpeg'
+    },
+    {
+        id: 14,
+        title: 'Straight Raw Hair',
+        category: 'hair',
+        image: 'Straight raw hair.jpeg'
+    },
+    {
+        id: 15,
+        title: 'Weave Installation 1',
+        category: 'hair',
+        image: 'Weaves1.jpeg'
+    },
+    {
+        id: 16,
+        title: 'Weave Installation 2',
+        category: 'hair',
+        image: 'Weaves2.jpeg'
+    },
+    {
+        id: 17,
+        title: 'Premium Wig 1',
+        category: 'hair',
+        image: 'Wigs1.jpeg'
+    },
+    {
+        id: 18,
+        title: 'Premium Wig 2',
+        category: 'hair',
+        image: 'Wigs2.jpeg'
+    },
+    {
+        id: 19,
+        title: 'Premium Wig 3',
+        category: 'hair',
+        image: 'Wigs3.jpeg'
+    },
+    {
+        id: 20,
+        title: 'Knotless Boho Braids',
+        category: 'hair',
+        image: 'knotless boho braids with curlywavy end.jpeg'
+    },
+    {
+        id: 21,
+        title: 'Sleek Low Bun',
+        category: 'hair',
+        image: 'sleek low bun.jpeg'
+    }
+];
 
     const galleryGrid = document.getElementById('galleryGrid');
     const loadMoreBtn = document.getElementById('loadMoreGallery');
