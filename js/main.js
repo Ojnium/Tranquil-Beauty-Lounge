@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function() {
         id: 5,
         title: 'Deep Curly Deep Wave Human Hair',
         category: 'hair',
-        image: 'Deep Curly Deep Wave human hair.jpeg'
+        image: 'wig5.jpeg'
     },
     {
         id: 6,
